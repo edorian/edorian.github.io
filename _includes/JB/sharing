@@ -1,0 +1,18 @@
+{% if site.safe and site.JB.sharing.provider and page.JB.sharing != false %}
+
+{% for provider in site.JB.sharing.provider %}
+  {% case provider %}
+	{% when 'facebook' %}
+  		{% include JB/sharing-providers/facebook %}
+	{% when 'twitter' %}
+  		{% include JB/sharing-providers/twitter %}
+	{% when 'googleplus' %}
+  		{% include JB/sharing-providers/googleplus %}
+	{% when 'linkedin' %}
+  		{% include JB/sharing-providers/linkedin %}
+	{% when 'hackernews' %}
+  		{% include JB/sharing-providers/hackernews %}
+  {% endcase %}
+{% endfor %}
+
+{% endif %}
