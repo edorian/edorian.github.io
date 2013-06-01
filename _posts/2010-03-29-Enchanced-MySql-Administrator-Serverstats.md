@@ -30,8 +30,8 @@ To get all those Stats you need to download the XML File and copy it into your `
 [mysqladmin_health.xml](XML)
 
 
-[normalOne]: {{ ASSET_PATH }}/2010-03-29/default-look-1.png
-[normalTwo]: {{ ASSET_PATH }}/2010-03-29/default-look-2.png
-[enhancedOne]: {{ ASSET_PATH }}/2010-03-29/enhanced-look-1.png
-[enhancedTwo]: {{ ASSET_PATH }}/2010-03-29/enhanced-look-2.png
-[XML]: {{ ASSET_PATH }}/2010-03-29/enhanced-look-2.png
+[normalOne]: {{ POST_ASSET_PATH }}/2010-03-29/default-look-1.png
+[normalTwo]: {{ POST_ASSET_PATH }}/2010-03-29/default-look-2.png
+[enhancedOne]: {{ POST_ASSET_PATH }}/2010-03-29/enhanced-look-1.png
+[enhancedTwo]: {{ POST_ASSET_PATH }}/2010-03-29/enhanced-look-2.png
+[XML]: {{ POST_ASSET_PATH }}/2010-03-29/enhanced-look-2.png
