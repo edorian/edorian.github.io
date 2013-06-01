@@ -1,3 +1,11 @@
+---
+
+layout: post
+title: Enhanced MySql Administrator server stats
+tags: [mysql]
+
+---
+
 # Enhanced MySql Administrator server stats
 
 If your using the [MySql GUI Tools](http://dev.mysql.com/downloads/gui-tools/) you might have noticed that the "Server stats" are somewhat lacking.
