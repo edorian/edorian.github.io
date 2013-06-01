@@ -22,7 +22,7 @@ For some years we are able to use "array" and class names as type hints [http://
 	set_error_handler("typehint");
 
 
-If you name a "class" in a function definition that isn't know at compline time PHP doesn't complain. Only if you pass in the wrong value it throws an "Catchable fatal error":
+If you name a "class" in a function definition that isn't know at compile time PHP doesn't complain. Only if you pass in the wrong value it throws an "Catchable fatal error":
 
 > Catchable fatal error: Argument 1 passed to CLASS::FUNCTION() must be an instance of MYCLASS, WHAT_YOU_PUT_IN given.
  
@@ -30,13 +30,13 @@ If you now pass in a string in that function it reports it as "string given". Co
 
 > Catchable fatal error: Argument 1 passed to CLASS::FUNCTION() must be an instance of string, string given.
 
-The error might sound stupid but PHP expects a instance of class "string" not a literal string so thats ok.
+The error might sound stupid but PHP expects a instance of class "string" not a literal string so that's ok.
 
 If you catch all these errors you have now literal type hints in your application!
 
 ### GREAT?
 
-Well let's look at the downsides... (apart from "OMG THATS A FUCKING STUPID IDEA!")
+Well let's look at the downsides... (apart from "OMG THAT'S A FUCKING STUPID IDEA!")
 
 It's slow.. really slow. I didn't test it on a real project but for calling a million functions with one and three params the results look like this:
 
