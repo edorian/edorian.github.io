@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : edoriansblog 
+      short_name : edoiransblog 
     livefyre :
       site_id : 123
     intensedebate :
