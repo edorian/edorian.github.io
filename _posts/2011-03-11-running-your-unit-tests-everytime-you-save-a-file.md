@@ -48,6 +48,7 @@ So i added a simple "-w / --watch" Flag that starts pywatch for all the source a
 It takes all the arguements passed to the testrunner, strips the "-w" and calls `passthrou` with the command passed to pywatch. It's a litte hackish.
 
 {:.prettyprint .linenums .lang-php}
+	<?php
     $sCommand = 'pywatch " '.join(" ", $_SERVER['argv']).' " '.join(" ",$requiredFiles);
 	$sCommand = str_replace(" -w", " ", $sCommand);
 	passthru($sCommand);
