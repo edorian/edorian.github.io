@@ -8,18 +8,19 @@ tags: [mysql]
 
 If your using the [MySql GUI Tools](http://dev.mysql.com/downloads/gui-tools/) you might have noticed that the "Server stats" are somewhat lacking.
 
-Out of the Box:
+## Out of the box stats
 
 ![Default view first tab][normalOne]
 ![Default view second tab][normalTwo]
 
+But since the tool supports customize all the graphs and adding new ones
 
-but since it allows you to customize all the graphs and add now ones
+## Enhanced view
 
 ![Enhanced view first tab][enhancedOne]
 ![Enhanced view second tab][enhancedTwo]
 
-
+---------
 
 If your not to firm with all the Stats it can spit out for you I'd suggest you read [http://hackmysql.com/mysqlreportguide](http://hackmysql.com/mysqlreportguide) for an overview. My aim was to recreate most of the value this reporting tool provides.
 
