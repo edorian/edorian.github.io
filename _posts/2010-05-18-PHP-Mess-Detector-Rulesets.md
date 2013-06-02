@@ -45,6 +45,7 @@ Just use one Rule:
 
 Using the "LongVariable" rule, changing the priority and a rule Parameter.
 
+{:.prettyprint .lang-xml}
     <rule ref="rulesets/naming.xml/LongVariable">
         <priority>5</priority>
         <properties>
