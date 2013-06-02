@@ -58,10 +58,12 @@ It's slow.. really slow. I didn't test it on a real project but for calling a mi
 
 -----------------
 
-I haven't really looked into WHY it's slower on 5.3 nor tried 5.3.2 or 5.3.99 but i don't think that really matters. (Test script attached if you want to try it yourself).
+I haven't really looked into WHY it's slower on 5.3 nor tried 5.3.2 or 5.3.99 but i don't think that really matters. [Test script attached if you want to try it yourself][testscript]
 
 So for a production environment this method is somewhat unusable (given you just could patch your php if you really want that and don't care about the trouble and not 'reusable' code you will get).
 
 So what else could you do with it... well if you have a good API Documentation you could build a script to put those type hints into your code before you run your test suite... but that also did work before (putting the type checks in the first lines of the method).
 
 I guess it's good for nothing but showing off another way to hack around in PHP. Presumably it's not even forward compatible to the point where PHP will have literal type hints since i guess they will call them "int/bool" and not "integer/boolean".
+
+[testscript]: /assets/posts/2010-03-30/testscript.php
