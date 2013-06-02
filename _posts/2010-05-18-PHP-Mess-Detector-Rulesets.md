@@ -68,4 +68,4 @@ If your applying all the rules at once to a old grown code base you might end up
 
 To get a working sample config check [phpmd-sample-config.xml][sampleConfig]
 
-[sampleConfig]: /assets/posts/2010-03-30/phpmd-sample-config.xml
+[sampleConfig]: /assets/posts/2010-05-18/phpmd-sample-config.xml
