@@ -66,6 +66,6 @@ So if a rule is impractical just change it.
 
 If your applying all the rules at once to a old grown code base you might end up with ten thousand or more errors and your not going to fix those right away are you ? Figure out whats most important to you and work on those issues until your happy and then phase in the next rules giving people a chance to clean up your code bit by bit (boy scouts rule).
 
-To get a working sample config check [phpmd-sample-config.xml](sampleConfig)
+To get a working sample config check [phpmd-sample-config.xml][sampleConfig]
 
 [sampleConfig]: /assets/posts/2010-03-30/phpmd-sample-config.xml
