@@ -10,6 +10,7 @@ I'm starting a little series about "stuff that physically hurts me if i see it i
 
 So what causes me pain? Mostly stuff that **wastes time**, it wasted your time writing it and much more important: It wastes my time (and everyone else's time too!).
 
+{:.prettyprint .lang-php}
     <?php
     class myClass {
         /**
