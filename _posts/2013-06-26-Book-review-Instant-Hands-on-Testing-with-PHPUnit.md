@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Book review: Instant Hands on Testing with PHPUnit
+title: Book review - Instant Hands on Testing with PHPUnit
 tags: [php, phpunit, phpqatools, book]
 
 ---
