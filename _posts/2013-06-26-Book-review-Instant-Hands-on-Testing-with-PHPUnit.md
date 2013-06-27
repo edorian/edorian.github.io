@@ -42,4 +42,4 @@ It's always hard to judge what other folks might get from reading something but 
 
 ## Where to get it
 
-If you want to read it yourself it's available for around 5€ or your regional equivalent from PacktPub [http://www.packtpub.com/how-to-hands-on-testing-with-phpunit/book]()
+If you want to read it yourself it's available for around 5€ or your regional equivalent from PacktPub [http://www.packtpub.com/how-to-hands-on-testing-with-phpunit/book](http://www.packtpub.com/how-to-hands-on-testing-with-phpunit/book)
