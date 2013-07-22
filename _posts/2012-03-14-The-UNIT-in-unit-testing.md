@@ -40,6 +40,7 @@ Can we test methods in isolation?
 
 A method on it's own is hardly testable. It might seem counter intuitive at first but maybe let us look at some examples before i try to make a general point:
 
+{:.prettyprint .lang-php}
 	private $count;
 
 	public function getCount() {
@@ -52,6 +53,7 @@ We could make `$count` public (using reflection), change its value and test if t
 
 If you later change the function to:
 
+{:.prettyprint .lang-php}
 	public function getCount() {
 		return count($this->list);
 	}
@@ -60,6 +62,7 @@ our test would fail even so the class might still work as expected!
 
 **Another example**
 	
+{:.prettyprint .linenums .lang-php}
 	public function setValue($value) {
 	    $this->value = $value;
 	}
@@ -105,10 +108,12 @@ When I call a method on an object I ask it do something. Another way of saying t
 
 Return values - The answer we get to our questions!
 
-	assertSame($expectedResult, $object>methodCall);
+{:.prettyprint .lang-php}
+	assertSame($expectedResult, $object->methodCall);
 
 Calls to other methods - Does it pass the message along?
 
+{:.prettyprint .lang-php}
 	$loggerMock->expects($this->once())->method('log')->with('ERROR');
 
 We don't really care about testing global state. We try to avoid it inside the application and for testing the database interactions we use integration or system tests.
