@@ -98,6 +98,7 @@ Now [head over to the guide](http://jenkins-php.org/) and:
  * Copy the following in your phpunit.dist.xml
  * In addition to the other install commands run: `java -jar jenkins-cli.jar -s http://localhost:8080 install-plugin git` since we are using git for this example
 
+{:.prettyprint .lang-xml}
 	<?xml version="1.0" encoding="UTF-8"?>
 	<phpunit backupGlobals="false"
 	   backupStaticAttributes="false"
@@ -119,6 +120,7 @@ Now [head over to the guide](http://jenkins-php.org/) and:
 
 and fill your class and test with some code:
 
+{:.prettyprint .lang-php}
 	<?php
 	class MyClass {
 	    public function demo($a) {
@@ -132,6 +134,7 @@ and fill your class and test with some code:
 
 And a sample test for `tests/MyClassTest.php`
 
+{:.prettyprint .lang-php}
 	<?php
 	
 	require_once("src/MyClass.php");
