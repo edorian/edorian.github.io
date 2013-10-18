@@ -63,3 +63,14 @@ html, body {
   border:1px solid #4C964D;
   color:#FFF;
 }
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+li {
+  font-size: 13px;
+  line-height: 20px;
+}
+
