@@ -22,7 +22,7 @@ All build on a language that is really easy to get into but incredibly spiteful 
 
 It's just not ok to run applications that have 5 millions lines of code in a language that just dies when a method doesn't exist when it's trying to call it.
 
-Let me say that again: It's NOT OK that you present your user with a white page and your developer with an E_ERROR **without a stackstrace** because $user is null in some edge case somewhere. The amount of waste and technical dept this single decision causes is NOT OK for a language that runs the damn internet. 
+Let me say that again: It's NOT OK that you present your user with a white page and your developer with an E_ERROR **without a stackstrace** because $user is null in some edge case somewhere. The amount of waste and technical debt this single decision causes is NOT OK for a language that runs the damn internet. 
 
 It's not 1995 anymore where nobody cared that your guest book was not available. It's 2014 soon and the least you could do is to present your users with a generic nice error that apologies for what happened and mails your dev a stacktrace of what happened. There are at least 3 other wildly used web scripting languages that don't just throw a blank page in your face. Arguing that there are reasons for this behavior and that it's "consistent with the language" is throwing a fixable problem back into the face of people that then go and spend hours debugging to find things that just a darn stacktrace from production could have told them.
 
