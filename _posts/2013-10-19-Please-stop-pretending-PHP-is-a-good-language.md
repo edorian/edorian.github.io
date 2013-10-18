@@ -55,7 +55,7 @@ Claiming that **"It's open source! Just fix it"** won't solve any problem either
 
 The claim that "PHP is this awesome enabling language that let's you focus on doing awesome things" doesn't hold up when all of the gains are wasting dealing with the obtuse errors.
 
-> You can't have your cake and E_ERROR method call on a non object 
+> You can't have your cake and E_ERROR: call to a member function eat() on a non-object 
 
 Thank you
 
