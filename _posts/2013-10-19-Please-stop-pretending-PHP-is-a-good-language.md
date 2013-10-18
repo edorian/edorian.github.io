@@ -14,7 +14,7 @@ Please keep that in mind when read this post.
 
 I'm currently observing two kinds of discussions around the core PHP language. A couple of folks say **"Sure the language sucks but look at all the amazing stuff we build with it!"** and the other camp goes **"Look at all the amazing stuff we build - The language can't be that bad!"**.
 
-The main point here is that the PHP applications that have been created over the years are incredible. Maybe not technically but in the fathomable amount of value they created for their users. The astonishing dominance of PHP in the Web doesn't come from the fact that it is a good language, it comes from the fact that it allowed people to create and maintain things that are really useful. You might not like to core in Wordpress, Drupal or phpBB but image the amount of sharing and collaboration they facilitated in the last 10 years.
+The main point here is that the PHP applications that have been created over the years are incredible. Maybe not technically but in the fathomable amount of value they created for their users. The astonishing dominance of PHP in the Web doesn't come from the fact that it is a good language, it comes from the fact that it allowed people to create and maintain things that are really useful. You might not like to core in WordPress, Drupal or phpBB but image the amount of sharing and collaboration they facilitated in the last 10 years.
 
 All build on a language that is really easy to get into but incredibly spiteful and frustrating at times.
 
