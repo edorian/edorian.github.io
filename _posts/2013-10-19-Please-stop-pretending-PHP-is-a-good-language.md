@@ -34,8 +34,8 @@ It's not 1995 anymore where nobody cared that your guest book was not available.
 - It's not ok to ignore the simple fact that most of the PHP world currently relies on parsing function and class comments for it's code to function because people can't get their shit together on mailing lists.
 - It's not ok to run around shouting "type hinting for literals would mean that passing an int to float hint would fatal PHP" and calling that an reasonable argument while people just write `$x = (float)$x;` in the cases where it actually does matter anyways.
 - It's not ok to be not able to talk to 2 back end data sources in parallel, using "promises" or whatever, in a language that has "pull stuff out of database and put it into the internet" as a proclaimed core competency.
-- It's not ok that `echo 0.000001;` produces `1.0E-6` and that casting it to string doesn't help but putting quotes around it does.
 - It's not ok that you have to [clear the error buffer by generating a suppressed undefined variable error just to be able to sanely use token\_get\_all()](https://github.com/nikic/PHP-Parser/blob/master/lib/PHPParser/Lexer.php#L44).
+- It's not ok that `echo 0.000001;` produces `1.0E-6` in a language people claim should* be used for templating making it necessary to slap a number_format/sprintf around every float.
 
 No single point of this breaks the ""PHP Platform"" in any way, even though it's really pathetic that you have to deal with PHP just completely falling over without a stacktrace in a lot of cases, but things are getting to the point where the sheer amount of weird, arcane cruft that has to be worked around every day can't be explained or justified (for a cost/gain perspective) anymore.
 
@@ -61,4 +61,5 @@ Thank you
 
 ------------
 
-[1] : Yes I know `$first = reset((array_values($list)));` would work. But `$first = reset(array_values($list));` doesn't. And are you really trying to tell me this a solution because it kinda looks like part of the problem. We're not golfing here.
+[1]: Yes I know `$first = reset((array_values($list)));` would work. But `$first = reset(array_values($list));` doesn't. And are you really trying to tell me this a solution because it kinda looks like part of the problem. We're not golfing here.
+[2]: Thankfully that doesn't happen all that much any more but "It's a templating language" it still gets dragged around as an argument to keep other broken features.
